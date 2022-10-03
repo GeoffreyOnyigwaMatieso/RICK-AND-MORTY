@@ -12,7 +12,9 @@ Hint! ✌️ This Application consumes Rick and Morty API, its useful if you che
 
 # Getting Started
 
-🚧 ... WORK IN PROGRESSS 
+🚧  
+⚒️
+... WORK IN PROGRESSS 
 
 
 ## Author 
