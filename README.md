@@ -8,7 +8,7 @@ React: Declarative library that makes it painless to create interactive UIs. its
 
 Css (Cascading Style Sheet): This makes the page Beutiful.
 
-Hint! ✌️ This Application consumes open Weather API, its useful if you generate the API Key
+Hint! ✌️ This Application consumes Rick and Morty API, its useful if you check the documentation here ...
 
 # Getting Started
 In order to get this Web  application  running , you need to:
