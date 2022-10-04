@@ -2,7 +2,9 @@ import React from 'react'
 
 function Seasons() {
   return (
-    <div>Seasons</div>
+    <div>
+      <h1>All Seasons! </h1>
+    </div>
   )
 }
 

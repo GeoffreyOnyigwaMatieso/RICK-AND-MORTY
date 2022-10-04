@@ -2,7 +2,9 @@ import React from 'react'
 
 function Webshop() {
   return (
-    <div>Webshop</div>
+    <div>
+      <h1>Webshop!</h1>
+    </div>
   )
 }
 

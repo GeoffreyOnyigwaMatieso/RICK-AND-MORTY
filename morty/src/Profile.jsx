@@ -2,7 +2,10 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <div>
+      <h1> Main Characters! </h1>
+
+    </div>
   )
 }
 
