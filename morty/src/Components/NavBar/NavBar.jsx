@@ -28,14 +28,14 @@ function NavBar() {
       </NavLink>
 
       <NavLink
-        to="/profile"
+        to="/allcharacter"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkblue",
         }}
       >
-        Profile
+        AllCharacters 
       </NavLink>
 
       <NavLink

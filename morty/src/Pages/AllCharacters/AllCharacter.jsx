@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Profile() {
+function AllCharacter() {
   return (
     <div>
       <h1> Main Characters! </h1>
@@ -9,4 +9,4 @@ function Profile() {
   )
 }
 
-export default Profile
+export default AllCharacter
