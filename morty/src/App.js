@@ -7,7 +7,26 @@ function App() {
   // setting our page number to one 
   let [pageNumber,setPageNumber] = useState(1);
 
-  let api = `https://rickandmortyapi.com/api/character/?page=${}`
+  // state holding character information 
+  let [fetchedData,updateFetchedData] = useState([])
+  // destructuring our array 
+  let {info , results } = fetchedData
+
+  console.log(results)
+  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}`
+
+  // using useEffect to fetch Data
+  useEffect(()=>{
+    // using IFFE i.e immediately invoked function 
+    (async function(){
+      // fetch our data 
+      let data = await fetch(api).then(res => res.json())
+      //  console.log(data.results)
+      updateFetchedData(data)
+
+    })()
+
+  },[api]) // whenever our API changes fetch new Data 
   return (
     <div className="App">
      <h1 className="text-center ubuntu my-4">
