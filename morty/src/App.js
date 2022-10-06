@@ -1,8 +1,13 @@
+import React, { useState,useEffect } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap"
 import { Card } from "./Components/Card/Card";
 import { Filters } from "./Components/Filters/Filters";
 function App() {
+  // setting our page number to one 
+  let [pageNumber,setPageNumber] = useState(1);
+
+  let api = `https://rickandmortyapi.com/api/character/?page=${}`
   return (
     <div className="App">
      <h1 className="text-center ubuntu my-4">
