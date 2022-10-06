@@ -23,7 +23,26 @@ export const Card = ({results}) => {
                         </div>
                     </div>
                 </div>
-                <div className={`${styles.badge} position-absolute badge bg-success`} >{status}</div>
+                
+                {(()=>{
+                    // display status based on condition
+                    if(status === 'Dead'){
+                        return(
+                            <div className={`${styles.badge} position-absolute badge bg-danger`} >{status}</div>
+                        )
+                    }
+                    else if(status === 'Alive'){
+                        return(
+                            <div className={`${styles.badge} position-absolute badge bg-success`} >{status}</div>
+                        )
+                    }
+                    else{
+                        return(
+                            <div className={`${styles.badge} position-absolute badge bg-secondary`} >{status}</div>
+                        )
+                    }
+                })()}
+                
                 </div>)
         })
     } else{
