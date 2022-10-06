@@ -1,4 +1,6 @@
 // src/components/App.js
+// import "bootstrap/dist/css/bootstrap.min.css"
+// import "bootstrap/dist/js/bootstrap"
 import React from 'react'
 import { Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home"
