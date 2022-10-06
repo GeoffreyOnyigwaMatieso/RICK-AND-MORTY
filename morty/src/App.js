@@ -38,7 +38,7 @@ function App() {
           <Filters />
         </div>
         <div className="col-8">
-          <div classsName="row">
+          <div className="row">
            <Card results={results}/>
           </div>
         </div>
