@@ -12,7 +12,7 @@ function App() {
   // destructuring our array 
   let {info , results } = fetchedData
 
-  console.log(results)
+  // console.log(results)
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}`
 
   // using useEffect to fetch Data
@@ -39,7 +39,7 @@ function App() {
         </div>
         <div className="col-8">
           <div classsName="row">
-           <Card />
+           <Card results={results}/>
           </div>
         </div>
       </div>
