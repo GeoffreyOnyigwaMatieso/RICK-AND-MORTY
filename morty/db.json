@@ -1,0 +1,32 @@
+{
+  "charactersprofile": [
+    {
+      "id": 1,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "LastKnownLocation": "Citadel of Ricks",
+      "Firstseenin": "Rick's Toxic Side"
+    },
+    {
+      "id": 2,
+      "name": "Stair Goblin",
+      "status": "Alive",
+      "LastKnownLocation": "Fantasy World",
+      "Firstseenin": "Meeseeks nd Destroy"
+    },
+    {
+      "id": 3,
+      "name": "Pibbles BodyGuard",
+      "status": "Alive",
+      "LastKnownLocation": "St. Gloopy Noops Hospital",
+      "Firstseenin": "Interdimensional Cable 2: Tempting Fate"
+    },
+    {
+      "name": "Morty",
+      "status": "Smiith",
+      "LastKnownLocation": "Xenos",
+      "Firstseenin": "Earth",
+      "id": 4
+    }
+  ]
+}
