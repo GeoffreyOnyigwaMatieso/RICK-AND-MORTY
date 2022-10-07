@@ -2,7 +2,7 @@ import React  from 'react'
 import { Route, Switch } from "react-router-dom";
 import AllCharacter from './Components/AllCharacterContainer/AllCharacter';
 import Home from './Components/Home/Home';
-import  CharacterList  from './Components/CharacterList/CharacterList';
+import CharacterContainer from './Components/CharacterContainer/charactercontainer';
 import NavBar from './Components/NavBar/NavBar';
 
 function App() {
@@ -16,7 +16,8 @@ function App() {
     </Route>
 
     <Route exact path ="/allcharacter">
-    <CharacterList />
+  
+    <CharacterContainer />
     </Route>
 
     <Route exact path ="/">
