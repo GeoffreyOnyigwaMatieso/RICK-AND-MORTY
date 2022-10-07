@@ -5,7 +5,7 @@ passing down a prop called item as an argument
 
 */
 
-export const Character = ({item}) => {
+function  Character({item}){
 
     const {name,status,LastKnownLocation,Firstseenin} = item
 
@@ -18,3 +18,4 @@ export const Character = ({item}) => {
     </tr>
   )
 }
+export default Character
