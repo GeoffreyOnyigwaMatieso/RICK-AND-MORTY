@@ -9,6 +9,8 @@ import CharacterList from "../CharacterList/CharacterList";
     const [Characters, setCharacters] = useState([]);
     const [search, setSearch] = useState("")
 
+    //console.log(Characters);
+
     useEffect(() =>{
         const lookup = () =>{
           fetch(`http://localhost:8001/charactersprofile?q=${search}`)
@@ -17,6 +19,8 @@ import CharacterList from "../CharacterList/CharacterList";
         };
         if(search.length === 0 || search.length > 2) lookup();
       },[search])
+
+      //console.log(data)
 
   return (
     <div>
