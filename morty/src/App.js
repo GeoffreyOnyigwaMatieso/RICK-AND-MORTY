@@ -1,5 +1,4 @@
 import React  from 'react'
-
 import AllCharacter from './Components/AllCharacterContainer/AllCharacter';
 
 function App() {
