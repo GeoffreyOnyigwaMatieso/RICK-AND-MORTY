@@ -2,7 +2,7 @@ import React, { useState, useEffect}from "react";
 import { Search } from "../Search/Search";
 
 import CharacterList from "../CharacterList/CharacterList";
-import Character from "../Characters/Character";
+// import Character from "../Characters/Character";
 import AddCharacterForm from "../AddCharacterForm/AddCharacterForm";
 
 
@@ -26,7 +26,7 @@ import AddCharacterForm from "../AddCharacterForm/AddCharacterForm";
 
       // add new character function 
       function AddedCharacter (newCharacter){
-        const updatedCharacter = [...Character, newCharacter];
+        const updatedCharacter = [...Characters, newCharacter];
         setCharacters(updatedCharacter);
         //console.log(updatedCharacter)
       }

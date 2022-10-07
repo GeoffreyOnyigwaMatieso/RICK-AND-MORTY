@@ -20,7 +20,13 @@
       "status": "Alive",
       "LastKnownLocation": "St. Gloopy Noops Hospital",
       "Firstseenin": "Interdimensional Cable 2: Tempting Fate"
+    },
+    {
+      "name": "Morty",
+      "status": "Smiith",
+      "LastKnownLocation": "Xenos",
+      "Firstseenin": "Earth",
+      "id": 4
     }
-  
   ]
 }
