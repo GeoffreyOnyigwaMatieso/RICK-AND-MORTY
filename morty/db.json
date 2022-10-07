@@ -4,22 +4,22 @@
       "id": 1,
       "name": "Toxic Rick",
       "status": "Dead",
-      "Last Known Location": "male",
-      "First seen in": "Rick's Toxic Side"
+      "LastKnownLocation": "male",
+      "Firstseenin": "Rick's Toxic Side"
     },
     {
       "id": 2,
       "name": "Stair Goblin",
       "status": "Alive",
-      "Last Known Location": "Fantasy World",
-      "First seen in": "Meeseeks nd Destroy"
+      "LastKnownLocation": "Fantasy World",
+      "Firstseenin": "Meeseeks nd Destroy"
     },
     {
       "id": 3,
       "name": "Pibbles BodyGuard",
       "status": "Alive",
-      "Last Known Location": "St. Gloopy Noops Hospital",
-      "First seen in": "Interdimensional Cable 2: Tempting Fate"
+      "LastKnownLocation": "St. Gloopy Noops Hospital",
+      "Firstseenin": "Interdimensional Cable 2: Tempting Fate"
     }
   
   ]

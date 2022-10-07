@@ -1,5 +1,4 @@
 import React, { useState, useEffect}from "react";
-// import { CharacterList } from "../CharacterList/CharacterList";
 import { Search } from "../Search/Search";
 
 import CharacterList from "../CharacterList/CharacterList";
