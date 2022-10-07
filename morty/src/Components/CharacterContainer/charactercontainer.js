@@ -2,6 +2,8 @@ import React, { useState, useEffect}from "react";
 import { Search } from "../Search/Search";
 
 import CharacterList from "../CharacterList/CharacterList";
+import Character from "../Characters/Character";
+import AddCharacterForm from "../AddCharacterForm/AddCharacterForm";
 
 
 
@@ -22,10 +24,17 @@ import CharacterList from "../CharacterList/CharacterList";
 
       //console.log(data)
 
+      // add new character function 
+      function AddedCharacter (newCharacter){
+        const updatedCharacter = [...Character, newCharacter];
+        setCharacters(updatedCharacter);
+        //console.log(updatedCharacter)
+      }
+
   return (
     <div>
       <Search search = {setSearch}/>
-      
+      <AddCharacterForm charaterForm={AddedCharacter} />
       <CharacterList Characters = {Characters}/>
     </div>
   )

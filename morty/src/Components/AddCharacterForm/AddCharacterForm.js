@@ -34,7 +34,7 @@ function AddCharacterForm({charaterForm}) {
         <input type="text" name="name" value = {name} onChange ={(e) =>setName(e.target.value)}/>
         <input type="text" name="status" placeholder="status" value = {status} onChange={(e)=>setStatus(e.target.value)} />
         <input type="text" name="LastKnownLocation" placeholder="LastKnownLocation" value = {LastKnownLocation} onChange={(e) => setLastKnownLocation(e.target.value)}/> 
-        <input type="number" name="Firstseenin" placeholder="Firstseenin"  value = {Firstseenin} onChange={(e) => setFirstseenin(e.target.value)}/>
+        <input type="text" name="Firstseenin" placeholder="Firstseenin"  value = {Firstseenin} onChange={(e) => setFirstseenin(e.target.value)}/>
       </div>
       <button type = "submit" className="ui button">
         Add Character
