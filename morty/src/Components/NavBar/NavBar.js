@@ -1,28 +1,20 @@
 import React from 'react'
 import { NavLink} from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap"
 
 //styling our NavBar 
 
-const linkStyles = {
-  display: "inline-block",
-  width: "50px",
-  padding: "12px",
-  margin: "0 6px 6px",
-  background: "blue",
-  textDecoration: "none",
-  color: "white",
-};
+
 
 function NavBar() {
   return (
-    <div>
-      <NavLink
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid  "> 
+      <NavLink 
+        class="nav-link active"
         to="/"
         exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
       >
         Home
       </NavLink>
@@ -30,10 +22,6 @@ function NavBar() {
       <NavLink
         to="/allcharacter"
         exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
       >
         CharacterList 
       </NavLink>
@@ -41,14 +29,11 @@ function NavBar() {
       <NavLink
         to="/characterhint"
         exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
       >
         Character Hint 
       </NavLink>
-    </div>
+      </div>
+      </nav>
    
   )
 }
