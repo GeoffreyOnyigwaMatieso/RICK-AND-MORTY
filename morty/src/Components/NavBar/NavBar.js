@@ -10,7 +10,7 @@ import "bootstrap/dist/js/bootstrap"
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid  "> 
+      <div class="container-fluid fs-6 fw-bold"> 
       <NavLink 
         class="nav-link active"
         to="/"
