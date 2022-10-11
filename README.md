@@ -42,6 +42,10 @@ Hint! ✌️ This Application consumes Rick and Morty API, its useful if you che
 3. Open index file from the zipped file with your default browser 
 
 
+### License
+{Determine the license under which this application can be used.  See below for more details on licensing.}
+This is under the [MIT](LICENSE) license
+Copyright (c) {year} *{List of contributors or company name}*
 
 ## Author 
 [Geoffrey Matieso ](https://github.com/Gmatieso).
