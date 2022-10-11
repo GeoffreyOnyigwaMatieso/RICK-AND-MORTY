@@ -18,31 +18,34 @@ Via React-Routing, You can click on `Home`, `CharacterList` and `CharacterHint`
 3. As a user, I can click on `Home`, `CharacterAdd`, `CharacterHint` to view the different features in each route. 
 # Technology Used
 
-Html (Cascading style sheet): Purposely this is the skeleton of the Project
+1. JSX: Develop Structure of the Page 
 
-React: Declarative library that makes it painless to create interactive UIs. its Commponent based, build encapsulated components that manage own state
+2. React: Declarative library that makes it painless to create interactive UIs. its Commponent based, build encapsulated components that manage own state
 
-Css (Cascading Style Sheet): This makes the page Beutiful.
+3. Css (Cascading Style Sheet): Styling the Interface 
 
 Hint! ✌️ This Application consumes Rick and Morty API, its useful if you check the documentation here ...
 
 
-### API Documentation: 
 
 
 ### Heroku Deployment:
 
 
-### Project Screen Recording:
+🚧   ... CONSTRUCTION AHEAD
 
 
 # Getting Started
 
-🚧 
-... CONSTRUCTION AHEAD
-⚒️
-... WORK IN PROGRESSS 
+1. Clone the Repo with git clone
+2. Unzip the downloaded files in the folder of your choice 
+3. Open index file from the zipped file with your default browser 
 
+
+### License
+{Determine the license under which this application can be used.  See below for more details on licensing.}
+This is under the [MIT](LICENSE) license
+Copyright (c) {year} *{List of contributors or company name}*
 
 ## Author 
 [Geoffrey Matieso ](https://github.com/Gmatieso).
