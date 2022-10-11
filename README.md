@@ -38,8 +38,8 @@ Hint! ✌️ This Application consumes Rick and Morty API, its useful if you che
 # Getting Started
 
 1. Clone the Repo with git clone
-2. Unzip the downloaded files in the folder of your choice .
-3 .Open index file from the zipped file with your default browser 
+2. Unzip the downloaded files in the folder of your choice 
+3. Open index file from the zipped file with your default browser 
 
 
 
